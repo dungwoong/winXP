@@ -129,7 +129,7 @@ function FooterMenu({ className, onClick }) {
             items={[
               { icon: pictures, text: 'My Pictures' },
               { icon: music, text: 'My Music' },
-              { icon: computer, text: 'My Computer' },
+              { icon: computer, text: 'About Me' },
             ]}
           />
           <div className="menu__separator" />

@@ -34,16 +34,16 @@ export const defaultAppState = [
       icon: iePaper,
     },
     defaultSize: {
-      width: 700,
-      height: 500,
+      width: 850,
+      height: 800,
     },
     defaultOffset: {
-      x: 130,
+      x: 930,
       y: 20,
     },
     resizable: true,
     minimized: false,
-    maximized: window.innerWidth < 800,
+    maximized: true,
     id: genId(),
     zIndex: genIndex(),
   },
@@ -62,7 +62,7 @@ export const defaultAppState = [
       y: 170,
     },
     resizable: false,
-    minimized: false,
+    minimized: true,
     maximized: false,
     id: genId(),
     zIndex: genIndex(),
@@ -83,7 +83,7 @@ export const defaultAppState = [
       y: 0,
     },
     resizable: false,
-    minimized: false,
+    minimized: true,
     maximized: false,
     id: genId(),
     zIndex: genIndex(),
@@ -91,7 +91,7 @@ export const defaultAppState = [
   {
     component: MyComputer,
     header: {
-      title: 'My Computer',
+      title: 'About Me',
       icon: computer,
     },
     defaultSize: {
@@ -99,12 +99,12 @@ export const defaultAppState = [
       height: 500,
     },
     defaultOffset: {
-      x: 250,
-      y: 40,
+      x: 600,
+      y: 100,
     },
     resizable: true,
     minimized: false,
-    maximized: window.innerWidth < 800,
+    maximized: false,
     id: genId(),
     zIndex: genIndex(),
   },
@@ -128,7 +128,7 @@ export const defaultIconState = [
   {
     id: 2,
     icon: computerLarge,
-    title: 'My Computer',
+    title: 'About Me',
     component: MyComputer,
     isFocus: false,
   },
@@ -215,10 +215,10 @@ export const appSettings = {
     maximized: false,
     multiInstance: true,
   },
-  'My Computer': {
+  'About Me': {
     header: {
       icon: computer,
-      title: 'My Computer',
+      title: 'About Me',
     },
     component: MyComputer,
     defaultSize: {

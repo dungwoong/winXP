@@ -1,3 +1,6 @@
+# TODO
+- my computer details, write something there
+
 # WinXP
 
 🏁 Web based Windows XP desktop recreation.

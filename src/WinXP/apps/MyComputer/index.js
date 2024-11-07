@@ -26,7 +26,7 @@ import logo from 'assets/github-logo.png';
 import mine from 'assets/minesweeper/mine-icon.png';
 import windows from 'assets/windowsIcons/windows.png';
 
-function MyComputer({ onClose }) {
+function MyComputer({ onClose, onMinimize }) {
   function onClickOptionItem(item) {
     switch (item) {
       case 'Close':
@@ -94,7 +94,7 @@ function MyComputer({ onClose }) {
             alt="ie"
             className="com__address_bar__content__img"
           />
-          <div className="com__address_bar__content__text">My Computer</div>
+          <div className="com__address_bar__content__text">About Me</div>
           <img
             src={dropdown}
             alt="dropdown"
@@ -108,7 +108,7 @@ function MyComputer({ onClose }) {
       </section>
       <div className="com__content">
         <div className="com__content__inner">
-          <div className="com__content__left">
+          {/* <div className="com__content__left">
             <div className="com__content__left__card">
               <div className="com__content__left__card__header">
                 <div className="com__content__left__card__header__text">
@@ -210,7 +210,7 @@ function MyComputer({ onClose }) {
             <div className="com__content__left__card">
               <div className="com__content__left__card__header">
                 <div className="com__content__left__card__header__text">
-                  Details
+                  Forked From:
                 </div>
                 <img
                   src={pullup}
@@ -262,14 +262,47 @@ function MyComputer({ onClose }) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="com__content__right">
             <div className="com__content__right__card">
               <div className="com__content__right__card__header">
-                Files Stored on This Computer
+                Information
               </div>
               <div className="com__content__right__card__content">
                 <div className="com__content__right__card__item">
+                  {/* <img
+                    src={folder}
+                    alt="folder"
+                    className="com__content__right__card__img"
+                  /> */}
+                  <div
+                    className="com__content__right__card__img-container"
+                    style={{ overflowWrap: 'normal', width: '80%' }}
+                  >
+                    <div className="com__content__right__card__text">
+                      <p style={{ fontSize: '14px' }}>
+                        Hello! My name is Kevin.
+                        <br></br>I am a 4th year Data Science student at the
+                        University of Toronto.
+                        <br></br>I am skilled in software engineering, and
+                        machine learning.
+                        <br></br>
+                        In particular, I like Natural Language Processing.
+                        <br></br>
+                        <strong>
+                          Read more about me on my (actual) portfolio page!
+                        </strong>
+                        <br></br>
+                        <br></br>
+                        This WinXP app was modified by forking{' '}
+                        <a href="https://github.com/ShizukuIchi/winXP">
+                          this repo
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="com__content__right__card__item">
                   <img
                     src={folder}
                     alt="folder"
@@ -292,10 +325,10 @@ function MyComputer({ onClose }) {
                       User's Documents
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="com__content__right__card">
+            {/* <div className="com__content__right__card">
               <div className="com__content__right__card__header">
                 Hard Disk Drives
               </div>
@@ -313,8 +346,8 @@ function MyComputer({ onClose }) {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="com__content__right__card">
+            </div> */}
+            {/* <div className="com__content__right__card">
               <div className="com__content__right__card__header">
                 Devices with Removable Storage
               </div>
@@ -332,10 +365,10 @@ function MyComputer({ onClose }) {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="com__content__right__card com__content__right__card--me">
               <div className="com__content__right__card__header">
-                About Me :)
+                Quick Links
               </div>
               <div className="com__content__right__card__content">
                 <a
@@ -363,7 +396,22 @@ function MyComputer({ onClose }) {
                     alt="control"
                   />
                   <div className="com__content__right__card__text">
-                    My Website
+                    My Normal Website
+                  </div>
+                </a>
+                <a
+                  href="mailto:kevinwang7749@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="com__content__right__card__item--me"
+                >
+                  <img
+                    className="com__content__right__card__img"
+                    src={folder}
+                    alt="control"
+                  />
+                  <div className="com__content__right__card__text">
+                    kevinwang7749@gmail.com
                   </div>
                 </a>
               </div>
