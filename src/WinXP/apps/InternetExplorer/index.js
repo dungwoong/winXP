@@ -163,8 +163,8 @@ function InternetExplorer({ onClose }) {
           />
         </div>
       </section>
-      <div className="ie__content">
-        <div className="ie__content__inner">
+      <div className="ie__content" style={{ overflow: 'hidden' }}>
+        <div className="ie__content__inner" style={{ overflow: 'hidden' }}>
           <Google
             route={state.route}
             query={state.query}

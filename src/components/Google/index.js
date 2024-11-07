@@ -20,11 +20,13 @@ const MySite = styled.iframe`
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  overflow: hidden;
 `;
 
 const TestDiv = styled.div`
   width: 100%;
   height: 90%;
+  overflow: hidden;
 `;
 
 export default Google;
