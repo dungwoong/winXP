@@ -339,7 +339,7 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <a
-                  href="https://github.com/ShizukuIchi"
+                  href="https://github.com/dungwoong"
                   target="_blank"
                   rel="noreferrer"
                   className="com__content__right__card__item--me"
@@ -352,14 +352,14 @@ function MyComputer({ onClose }) {
                   <div className="com__content__right__card__text">Github</div>
                 </a>
                 <a
-                  href="https://sh1zuku.csie.io"
+                  href="https://dungwoong.github.io/"
                   target="_blank"
                   rel="noreferrer"
                   className="com__content__right__card__item--me"
                 >
                   <img
                     className="com__content__right__card__img"
-                    src="https://a.ppy.sh/2926513_1448497605.png"
+                    src="https://avatars.githubusercontent.com/u/78326933?v=4"
                     alt="control"
                   />
                   <div className="com__content__right__card__text">
