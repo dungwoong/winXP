@@ -43,7 +43,7 @@ export const defaultAppState = [
     },
     resizable: true,
     minimized: false,
-    maximized: true,
+    maximized: false,
     id: genId(),
     zIndex: genIndex(),
   },
@@ -99,7 +99,7 @@ export const defaultAppState = [
       height: 500,
     },
     defaultOffset: {
-      x: 600,
+      x: 200,
       y: 100,
     },
     resizable: true,

@@ -137,11 +137,14 @@ function InternetExplorer({ onClose }) {
         <div className="ie__address_bar__content">
           <img src={ie} alt="ie" className="ie__address_bar__content__img" />
           <div className="ie__address_bar__content__text">
-            {`https://www.google.com.tw${
+            {/* {`https://www.google.com.tw${
               state.route === 'search'
                 ? `/search?q=${encodeURIComponent(state.query)}`
                 : ''
-            }`}
+            }`} */}
+            <a href="https://dungwoong.github.io/projects.html" target="_blank">
+              https://dungwoong.github.io/projects.html
+            </a>
           </div>
           <img
             src={dropdown}

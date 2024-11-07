@@ -11,7 +11,7 @@ import styled from 'styled-components';
 export function Google() {
   return (
     <TestDiv>
-      <MySite src="https://dungwoong.github.io/"></MySite>
+      <MySite src="https://dungwoong.github.io/projects.html"></MySite>
     </TestDiv>
   );
 }
